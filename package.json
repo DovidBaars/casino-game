@@ -1,0 +1,24 @@
+{
+  "name": "casino-jackpot-game",
+  "version": "1.0.0",
+  "description": "A full-stack slot machine game application using TypeScript and Bun",
+  "scripts": {
+    "start": "bun run start:server & bun run start:client",
+    "start:server": "cd server && bun run start",
+    "start:client": "cd client && bun run dev",
+    "build": "bun run build:server & bun run build:client",
+    "build:server": "cd server && bun run build",
+    "build:client": "cd client && bun run build",
+    "install": "cd server && bun install && cd ../client && bun install",
+    "test": "bun run test:server & bun run test:client",
+    "test:server": "cd server && bun test",
+    "test:client": "cd client && bun test"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@types/node": "^22.0.2",
+    "all": "^0.0.0"
+  }
+}
