@@ -1,5 +1,5 @@
 {
-  "name": "casino-jackpot-game-server",
+  "name": "casino-game-server",
   "version": "1.0.0",
   "description": "Server for the casino jackpot game using TypeScript and Bun",
   "main": "src/index.ts",

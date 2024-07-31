@@ -1,5 +1,5 @@
 {
-  "name": "casino-jackpot-game",
+  "name": "casino-game",
   "version": "1.0.0",
   "description": "A full-stack slot machine game application using TypeScript and Bun",
   "scripts": {
