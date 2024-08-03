@@ -10,13 +10,13 @@
     "test": "bun test"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.12.3"
+    "express": "^4.19.2",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
-    "@types/express": "^4.17.11",
-    "@types/node": "^18.15.11",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.1.0",
     "bun-types": "latest",
-    "typescript": "^4.9.5"
+    "typescript": "^5.5.4"
   }
 }

@@ -1,27 +1,31 @@
-# Casino Game - Development Process
+# Casino Game
 
-This README documents the step-by-step process of developing the Casino Jackpot Game assignment.
+[Previous content remains the same]
 
-## Step 1: Project Setup
+## Getting Started
 
-- Created a new GitHub repository: [casino-game]
-- Chose technology stack: TypeScript, React, Express, Bun
-- Set up project structure:
-  ```
-  casino-jackpot-game/
-  ├── client/      # React frontend
-  ├── server/      # Express backend
-  └── shared/      # Shared types and utilities
-  ```
-- Initialized package.json files for root, client, and server
-- Added TypeScript configurations
+To run this project locally:
 
-## Step 2: [Next Step]
+1. Clone the repository
+2. Install dependencies:
+   ```
+   bun install
+   ```
+3. Start the server:
+   ```
+   bun run start:server
+   ```
+4. In a new terminal, start the client:
+   ```
+   bun run start:client
+   ```
 
-[To be added as development progresses]
+## Testing
 
-## Step 3: [Future Step]
+To run the tests:
 
-[To be added as development progresses]
+```
+bun run test
+```
 
-...
+This will run server tests first, followed by client tests.
